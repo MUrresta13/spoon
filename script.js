@@ -30,7 +30,7 @@
     startOverlay.style.display = 'none';
     gameRoot.classList.remove('hidden');
 
-    const imgSrc = boardEl.dataset.img || 'Halloween Puzzle.PNG';
+    const imgSrc = boardEl.dataset.img || 'Freddy Krueger.png';
     spriteURL = await preloadImage(imgSrc);
     refImg.src = spriteURL;
 
